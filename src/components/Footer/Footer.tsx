@@ -4,13 +4,11 @@ import { FooterWrapper } from "./Style";
 
 import Wrap from "../Wrap/Wrap";
 
-type Props = {};
-
-function Footer({}: Props) {
+function Footer() {
   return (
     <div>
       <FooterWrapper>
-        <Wrap>Sjoerd Vermeijden</Wrap>
+        <Wrap>Zie project in Github hier | Sjoerd Vermeijden</Wrap>
       </FooterWrapper>
     </div>
   );
