@@ -1,20 +1,9 @@
-import React, {
-  Dispatch,
-  SetStateAction,
-  useState,
-  useContext,
-  useEffect,
-} from "react";
+import React, { useState, useContext, useEffect } from "react";
 
 import { FormWrapper } from "./Style";
 import { TodoContext } from "../../context/TodoContext";
 
-interface Todo {
-  id: number;
-  name: string;
-}
-
-function Form({}: Todo) {
+function Form() {
   const [todoLabel, setTodoLabel] = useState<string>("");
   const [todos, setTodos] = useContext(TodoContext);
 

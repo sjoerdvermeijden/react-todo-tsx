@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const ListWrapper = styled.div`
   background: var(--lightgray);
   border-radius: 3px;
+  padding: 8px;
 
   .list {
     display: flex;
