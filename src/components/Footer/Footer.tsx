@@ -8,7 +8,22 @@ function Footer() {
   return (
     <div>
       <FooterWrapper>
-        <Wrap>Zie project in Github hier | Sjoerd Vermeijden</Wrap>
+        <Wrap>
+          <div>
+            <p>
+              <span>Zie project in Github</span>
+              <strong>
+                <a
+                  href="https://github.com/sjoerdvermeijden/react-todo-tsx"
+                  target="_blank"
+                >
+                  hier
+                </a>
+              </strong>
+            </p>
+            <p>| Sjoerd Vermeijden</p>
+          </div>
+        </Wrap>
       </FooterWrapper>
     </div>
   );

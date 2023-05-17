@@ -15,7 +15,9 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     html {
-        font-family: Verdana;
+        font-family: Verdana, Geneva, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        font-size: 14px;
         line-height: 17px;
     }
 
