@@ -1,9 +1,4 @@
-import React from "react";
-
 import { ContainerWrapper } from "./Style";
-
-import Form from "../Form/Form";
-import List from "../List/List";
 
 type Props = {
   children: any;

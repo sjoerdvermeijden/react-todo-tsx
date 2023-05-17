@@ -1,5 +1,3 @@
-import React from "react";
-
 import { BlockWrapper } from "./Style";
 
 type Props = {

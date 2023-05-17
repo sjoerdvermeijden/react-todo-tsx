@@ -1,8 +1,4 @@
-import React from "react";
-
-type Props = {};
-
-function Component({}: Props) {
+function Component() {
   return <div>Component</div>;
 }
 

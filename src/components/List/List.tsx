@@ -3,9 +3,7 @@ import React, { useState, useContext } from "react";
 import { ListWrapper } from "./Style";
 import { TodoContext } from "../../context/TodoContext";
 
-type Props = {};
-
-function List({}: Props) {
+function List() {
   const [todos, setTodos] = useContext(TodoContext);
   const [editValue, setEditValue] = useState<string>("");
 

@@ -1,12 +1,8 @@
-import React from "react";
-
 import { HeaderWrapper } from "./Style";
 
 import Wrap from "../Wrap/Wrap";
 
-type Props = {};
-
-function Header({}: Props) {
+function Header() {
   return (
     <>
       <HeaderWrapper>

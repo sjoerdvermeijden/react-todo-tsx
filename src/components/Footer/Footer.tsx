@@ -1,5 +1,3 @@
-import React from "react";
-
 import { FooterWrapper } from "./Style";
 
 import Wrap from "../Wrap/Wrap";
