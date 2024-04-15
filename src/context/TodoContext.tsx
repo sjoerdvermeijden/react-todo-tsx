@@ -3,7 +3,6 @@ import {
   SetStateAction,
   createContext,
   useState,
-  useEffect,
 } from "react";
 
 type Props = {
