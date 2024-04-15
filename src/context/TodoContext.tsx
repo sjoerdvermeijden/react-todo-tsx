@@ -20,24 +20,20 @@ interface Todo {
 type ContextValue = [Todo[], Dispatch<SetStateAction<Todo[]>>];
 
 const getItems = () => {
-  const todoItems = JSON.parse(localStorage.getItem("todos") || "");
 
-  if (todoItems) {
+  if (localStorage.getItem("todos") !== null) {
+    const todoItems = JSON.parse(localStorage.getItem("todos") || "");
+    //...
     return todoItems;
   } else {
     return [];
   }
 };
 
-export const TodoContext = createContext<ContextValue>([[], () => {}]);
+export const TodoContext = createContext<ContextValue>([[], () => { }]);
 
 export function TodoComponent({ children }: Props) {
   const [todos, setTodos] = useState<Todo[]>(getItems());
-
-  useEffect(() => {
-    const list = JSON.parse(localStorage.getItem("todos") || "");
-    setTodos(list);
-  }, []);
 
   return (
     <>
